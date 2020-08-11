@@ -1,5 +1,5 @@
-repo: 'html-writer'
-canvasCourse: 'web-dev-2'
+repo: "html-writer"
+canvasCourse: "web-design-2"
 
 inherit:
   - naming-restrict-live
@@ -7,25 +7,25 @@ inherit:
   - html
 
 html:
-  - path: 'index.html'
+  - path: "index.html"
     has:
-      - 'h1'
-      - 'p'
-      - 'strong'
-      - 'article'
-      - 'dl'
-      - 'ol'
-      - 'ul'
-      - 'header'
-      - 'footer'
+      - "h1"
+      - "p"
+      - "strong"
+      - "article"
+      - "dl"
+      - "ol"
+      - "ul"
+      - "header"
+      - "footer"
     has_not:
       - 'link[rel="stylesheet"]'
     search:
-      - 'Super Epic Tile Layer'
+      - "Super Epic Tile Layer"
       - '\$35'
-      - 'Average Rating'
+      - "Average Rating"
       - 'Add to Wishlist\!'
-      - 'Egyptian God'
-      - 'AwesomeSpiel'
-      - '2012 Spiel of the Year Winner'
-      - 'Thomas Schweitzer'
+      - "Egyptian God"
+      - "AwesomeSpiel"
+      - "2012 Spiel of the Year Winner"
+      - "Thomas Schweitzer"
